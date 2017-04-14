@@ -1,0 +1,15 @@
+print "Starting Program"
+os.clock()
+print "Loading Program"
+if choice == "2" then
+    os.execute( "cls" )
+    print("Сколько чисел?")
+    amountNo = io.read("*n")
+    if amountNo <= 2 then print("Вы не можете иметь меньше чем 2 цифры.")
+    elseif amountNo >= 14 then print("Не удается вычислить более 14 цифр")
+    elseif amountNo <= 14 and amountNo >= 2 then
+        amountNmb = amountNo
+        if amountNmb = 3 then print(" Число 1 ")
+        print("Введите разделяя цифры запятыми.")
+    local nmb
+    print("Ответ..")")
